@@ -2,33 +2,21 @@
 language:
   - en
 license: cc-by-4.0
-task_categories:
-  - tabular-classification
-pretty_name: "Base de Datos del Impacto Económico de Venezuela 2024-2025: Indicadores Clave y "
+pretty_name: "Base de Datos del Impacto Económico de Venezuela 2024-2025: Indicadores Clave y " 
 tags:
   - zenodo
-  - research
   - latin-america
   - open-science
 ---
-
 # Base de Datos del Impacto Económico de Venezuela 2024-2025: Indicadores Clave y 
 
-- **DOI:** [https://github.com/juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025](https://github.com/juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025)
-- **GitHub:** [juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025](https://github.com/juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025)
-- **License:** CC BY 4.0
-- **Author:** de la Serna, Juan Moisés
-
-## Load
+**DOI:** [https://github.com/juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025](https://github.com/juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025) | **Author:** de la Serna, Juan Moisés
 
 ```python
 import pandas as pd
-# See Zenodo for actual filenames
-df = pd.read_csv("https://github.com/juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025/files/data.csv")
+df = pd.read_csv("URL_FROM_ZENODO")
 ```
 
-## Citation
-
 ```bibtex
-@dataset{delaserna2025,author={de la Serna, Juan Moisés},title={Base de Datos del Impacto Económico de Venezuela 2024-2025: },year={2025},doi={https://github.com/juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025},url={https://github.com/juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025}}
+@dataset{ds2025,author={de la Serna, Juan Moisés},title={Base de Datos del Impacto Económico de Venezuela 2},year={2025},doi={https://github.com/juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025},url={https://github.com/juanmoisesd/venezuela-economic-impact-database-indicators-2024-2025}}
 ```
